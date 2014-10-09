@@ -54,6 +54,17 @@ The Ubuntu build does the following:
 * logging
 * much more...
 
+
+
+## Manual install apps
+
+* 1Password 4
+* 7zX
+* Photoshop
+* Lightroom
+* CleanMyMac 2
+* Permute
+
 # Credits
 
 * Logo by: [Piotrek Chuchla](http://www.thenounproject.com/pchuchla/)

@@ -11,34 +11,53 @@ fi
 # Update homebrew
 brew update && brew upgrade brew-cask
 
-# Install GNU core utilities (those that come with OS X are outdated)
-brew install coreutils
-
-# Install GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed
-brew install findutils
-
-# Install Bash 4
-brew install bash
-
 # Install more recent versions of some OS X tools
 brew tap homebrew/dupes
 brew install homebrew/dupes/grep
+brew tap caskroom/fonts
+brew tap homebrew/versions
+brew tap homebrew/homebrew-php
 
 # Install other useful binaries
 binaries=(
-  graphicsmagick
-  webkit2png
-  rename
-  zopfli
+  autoconf
+  automake
+  bash
+  cmake
+  coreutils
+  docker
+  eigen
+  elasticsearch
   ffmpeg
-  python
-  mongo
-  sshfs
-  trash
-  tree
-  ack
+  findutils
   git
-  hub
+  go
+  gpg2
+  grep
+  imagemagick
+  lame
+  libgcrypt
+  memcached
+  mongodb
+  nmap
+  nvm
+  opencv
+  openssl
+  osxfuse
+  pandoc
+  php56
+  postgresql
+  python
+  qt
+  redis
+  sbt
+  socat
+  sqlite
+  tesseract
+  tree
+  wget
+  wireshark
+  zsh
 )
 
 # Install the binaries

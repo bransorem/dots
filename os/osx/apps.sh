@@ -6,42 +6,41 @@ set -e
 
 # Apps
 apps=(
+  adium
   alfred
-  dropbox
-  google-chrome
-  qlcolorcode
-  screenflick
-  slack
-  transmit
-  appcleaner
-  firefox
-  hazel
-  qlmarkdown
-  seil
-  spotify
-  vagrant
-  arq
-  flash
-  iterm2
-  qlprettypatch
-  shiori
-  sublime-text3
-  virtualbox
+  amadeus-pro
+  anvil
   atom
+  brackets
+  calibre
+  cyberduck
+  dash
+  dropbox
+  evernote
+  fantastical
+  firefox
+  flash
   flux
-  mailbox
+  google-chrome
+  google-drive
+  handbrake
+  imageoptim
+  jump-desktop
+  little-snitch
+  postgres
+  prizmo
+  qlcolorcode
+  qlmarkdown
   qlstephen
-  sketch
-  tower
-  vlc
-  cloudup
-  font-m-plus
-  nvalt
   quicklook-json
-  skype
+  reflector
+  screenflow
+  sequel-pro
+  sublime-text3
   transmission
-  apikitchen
-  mamp
+  virtualbox
+  vagrant
+  vlc
 )
 
 # fonts
@@ -49,6 +48,10 @@ fonts=(
   font-m-plus
   font-clear-sans
   font-roboto
+  font-fira-sans
+  font-source-code-pro
+  font-source-sans-pro
+  font-source-serif-pro
 )
 
 # Specify the location of the apps

@@ -20,6 +20,24 @@ sh "$osx/defaults.sh"
 sh "$osx/binaries.sh"
 sh "$osx/apps.sh"
 
+
+# Prezto
+git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
+
+# Change default
+chsh -s /bin/zsh
+
+# RVM - ruby
+curl -L get.rvm.io | bash -s stable --ruby
+
+# NVM - node
+nvm install 0.10
+
+# Keybase
+npm install -g keybase-installer
+keybase-installer
+
+
 # Symlink the profile
 if [[ ! -e "$HOME/.bash_profile" ]]; then
   echo "symlinking: $osx/profile.sh => $HOME/.bash_profile"
