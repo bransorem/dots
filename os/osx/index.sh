@@ -27,9 +27,6 @@ git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$H
 # Change default
 chsh -s /bin/zsh
 
-# RVM - ruby
-curl -L get.rvm.io | bash -s stable --ruby
-
 # NVM - node
 nvm install 0.10
 

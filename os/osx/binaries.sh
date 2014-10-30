@@ -16,15 +16,17 @@ brew tap homebrew/dupes
 brew install homebrew/dupes/grep
 brew tap caskroom/fonts
 brew tap homebrew/versions
-brew tap homebrew/homebrew-php
+# brew tap homebrew/homebrew-php
 
 # Install other useful binaries
 binaries=(
   autoconf
   automake
   bash
+  boot2docker
   cmake
   coreutils
+  curl
   docker
   eigen
   elasticsearch
@@ -42,19 +44,24 @@ binaries=(
   nmap
   nvm
   opencv
+  openssh
   openssl
   osxfuse
   pandoc
-  php56
   postgresql
   python
   qt
   redis
+  rbenv
+  ruby-build
+  rsync
   sbt
   socat
   sqlite
+  tcsh
   tesseract
   tree
+  vim
   wget
   wireshark
   zsh
